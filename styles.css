@@ -1,9 +1,19 @@
 h1 {
     text-align: center;
     color: red;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
 }
 
 .picture {
-    width: 50%;
+    max-width: 100%;
+    height: auto;
+    display: block;
     margin: auto;
 }

@@ -3,6 +3,7 @@ h1 {
     color: red;
 }
 
-sith {
-    width: 80%;
-};
+.picture {
+    width: 50%;
+    margin: auto;
+}

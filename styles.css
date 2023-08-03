@@ -1,51 +1,69 @@
 .container {
     display: grid;
-    grid-template-columns: 1fr 30%;
-    grid-template-rows: 5% 1fr 10%;
-    
-    grid-template-areas: 
-    "header header"
-    "main sidebar"
-    "footer footer";
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 7% 7% 75% 10%;
+
+    grid-template-areas:
+        "header header header"
+        "recruit recruit recruit"
+        "contacts main sidebar"
+        "footer footer footer";
 }
 
 .header {
     grid-area: header;
     background-color: rgb(17, 1, 1);
+    padding-bottom: 5%;
+}
+
+.recruit {
+    grid-area: recruit;
+    font-family: 'Star Wars', sans-serif;
+    color: aliceblue;
+    grid-area: recruit;
+    text-align: center;
+    font-size: xx-large;
+    margin: auto;
 }
 
 .main {
     grid-area: main;
     background-color: whitesmoke;
-}
-.main img {
-    width: 100%;
+    width: 95%;
     height: auto;
+    border-radius: 10%;
 }
-
 
 .footer {
     grid-area: footer;
     background-color: yellow;
+    text-align: center;
+    margin: auto;
 }
 
-.sidebar  {
+.sidebar {
     grid-area: sidebar;
-    background: purple;
     width: 100%;
     height: auto;
-}  
+    margin-left: -5%;
+}
 
 .sidebar img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    border: 2px solid;
+    border-radius: 5%;
+    border-color: aliceblue;
 }
 
-.grid-item {
+.offers {
     text-align: center;
+    color: whitesmoke;
+    font-size: xx-large;
     font-family: 'Star Wars', sans-serif;
     border: 1px solid;
     border-color: rosybrown;
+    margin: 1%;
 }
 
 h1 {
@@ -54,7 +72,7 @@ h1 {
     color: red;
 }
 
-/* body {
+body {
     background-image: url(img/bG.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -62,23 +80,20 @@ h1 {
     max-width: 100%;
     display: block;
     margin: auto;
-} */
+}
+
+h3 {
+    font-family: 'Star Wars', sans-serif;
+    text-align: center;
+    color: goldenrod;
+    margin: auto;
+}
 
 /* 
 
-h2 {
-    font-family: 'Star Wars', sans-serif;
-    text-align: center;
-    color: blue;
-    margin: auto;
-}
 
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: auto;
-}
+
+
 
 .picture {
     max-width: 100%;
@@ -86,5 +101,3 @@ img {
     display: block;
     margin: auto;
 } */
-
-

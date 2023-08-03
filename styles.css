@@ -1,19 +1,54 @@
+body {
+    background-image: url(img/bG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(25px);
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    }
+
 h1 {
+    font-family: 'Star Wars', sans-serif;
     text-align: center;
     color: red;
     margin: auto;
-}
+    }
+
+h2 {
+    font-family: 'Star Wars', sans-serif;
+    text-align: center;
+    color: blue;
+    margin: auto;
+    }
 
 img {
     max-width: 100%;
     height: auto;
     display: block;
     margin: auto;
-}
+    }
 
 .picture {
     max-width: 100%;
     height: auto;
     display: block;
     margin: auto;
-}
+    }
+
+.offers {
+    display: grid;
+    color: whitesmoke;
+    float: center;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    }
+
+.grid-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Star Wars', sans-serif;
+    border: 1px solid;
+    border-color: rosybrown;
+  }

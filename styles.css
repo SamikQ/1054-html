@@ -1,4 +1,60 @@
-body {
+.container {
+    display: grid;
+    grid-template-columns: 1fr 30%;
+    grid-template-rows: 5% 1fr 10%;
+    
+    grid-template-areas: 
+    "header header"
+    "main sidebar"
+    "footer footer";
+}
+
+.header {
+    grid-area: header;
+    background-color: rgb(17, 1, 1);
+}
+
+.main {
+    grid-area: main;
+    background-color: whitesmoke;
+}
+.main img {
+    width: 100%;
+    height: auto;
+}
+
+
+.footer {
+    grid-area: footer;
+    background-color: yellow;
+}
+
+.sidebar  {
+    grid-area: sidebar;
+    background: purple;
+    width: 100%;
+    height: auto;
+}  
+
+.sidebar img {
+    width: 100%;
+    height: auto;
+}
+
+.grid-item {
+    text-align: center;
+    font-family: 'Star Wars', sans-serif;
+    border: 1px solid;
+    border-color: rosybrown;
+}
+
+h1 {
+    font-family: 'Star Wars', sans-serif;
+    text-align: center;
+    color: red;
+}
+
+/* body {
     background-image: url(img/bG.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -6,14 +62,9 @@ body {
     max-width: 100%;
     display: block;
     margin: auto;
-}
+} */
 
-h1 {
-    font-family: 'Star Wars', sans-serif;
-    text-align: center;
-    color: red;
-    margin: auto;
-}
+/* 
 
 h2 {
     font-family: 'Star Wars', sans-serif;
@@ -34,60 +85,6 @@ img {
     height: auto;
     display: block;
     margin: auto;
-}
-
-.offers {
-    display: grid;
-    color: whitesmoke;
-    float: center;
-    grid-template-columns: auto auto auto;
-    padding: 10px;
-}
-
-.grid-item {
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-    font-family: 'Star Wars', sans-serif;
-    border: 1px solid;
-    border-color: rosybrown;
-}
-
-.container {
-    display: grid;
-    grid-template-columns: 1fr 200px;
-    grid-template-rows: auto auto auto;
-
-    grid-template-areas: 
-    'header header'
-    'pic sidebar'
-    'footer';
-}
-
-.header {
-    grid-area: header;
-}
-
-.pic {
-    grid-area: pic;
-}
-
-.promo {
-    grid-area: sidebar;
-}
-
-.footer {
-    grid-area: footer;
-}
-
-.promo {
-    background: #212121;
-    width: 300px;
-    height: 100%;
-} 
+} */
 
 
-.promo img {
-    width: 100%;
-    margin-bottom: 10px;
-}

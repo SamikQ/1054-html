@@ -6,35 +6,35 @@ body {
     max-width: 100%;
     display: block;
     margin: auto;
-    }
+}
 
 h1 {
     font-family: 'Star Wars', sans-serif;
     text-align: center;
     color: red;
     margin: auto;
-    }
+}
 
 h2 {
     font-family: 'Star Wars', sans-serif;
     text-align: center;
     color: blue;
     margin: auto;
-    }
+}
 
 img {
     max-width: 100%;
     height: auto;
     display: block;
     margin: auto;
-    }
+}
 
 .picture {
     max-width: 100%;
     height: auto;
     display: block;
     margin: auto;
-    }
+}
 
 .offers {
     display: grid;
@@ -42,7 +42,7 @@ img {
     float: center;
     grid-template-columns: auto auto auto;
     padding: 10px;
-    }
+}
 
 .grid-item {
     padding: 20px;
@@ -51,4 +51,43 @@ img {
     font-family: 'Star Wars', sans-serif;
     border: 1px solid;
     border-color: rosybrown;
-  }
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    grid-template-rows: auto auto auto;
+
+    grid-template-areas: 
+    'header header'
+    'pic sidebar'
+    'footer';
+}
+
+.header {
+    grid-area: header;
+}
+
+.pic {
+    grid-area: pic;
+}
+
+.promo {
+    grid-area: sidebar;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.promo {
+    background: #212121;
+    width: 300px;
+    height: 100%;
+} 
+
+
+.promo img {
+    width: 100%;
+    margin-bottom: 10px;
+}

@@ -1,7 +1,7 @@
 .container {
     display: grid;
-    grid-template-columns: 25% 50% 25%;
-    grid-template-rows: 8% 7% 75% 25%;
+    grid-template-columns: 25% 45% 30%;
+    grid-template-rows: 8% 7% 63% 25%;
     grid-gap: 10px;
 
     grid-template-areas:
@@ -43,9 +43,7 @@
 .recruit {
     grid-area: recruit;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    align-self: stretch;
     font-family: 'Star Wars', sans-serif;
     color: aliceblue;
     font-size: xx-large;
@@ -53,10 +51,8 @@
 }
 
 .main {
-    display: flex;
     flex-direction: column;
     align-items: center;
-    align-self: stretch;
     grid-area: main;
     background-color: whitesmoke;
     width: 95%;
@@ -121,13 +117,15 @@
 }
 
 .links {
-    background-image: url(img/bgSoc.png);
     grid-area: links;
+    background-image: url(img/bgSoc.png);
 }
 
 .links img {
     align-self: center;
     max-width: 75px;
+    margin: 5px;
+    padding: 10px;
 }
 
 .links ul {

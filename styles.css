@@ -3,12 +3,12 @@
     grid-template-columns: 25% 50% 25%;
     grid-template-rows: 8% 7% 75% 25%;
     grid-gap: 10px;
-    
+
     grid-template-areas:
         "header header header"
         "recruit recruit recruit"
         "contacts main sidebar"
-        "students footer location";
+        "links footer location";
 }
 
 .container img {
@@ -17,38 +17,52 @@
 }
 
 .footer {
-  grid-area: footer;
-  align-items: center;
+    grid-area: footer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
 }
+
 .footer iframe {
     width: 100%;
-    height: auto;
+    height: 90%;
+    border-radius: 5%;
 }
 
 .header {
     grid-area: header;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
     background-color: rgb(17, 1, 1);
     padding-bottom: 5%;
 }
 
 .recruit {
     grid-area: recruit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
     font-family: 'Star Wars', sans-serif;
     color: aliceblue;
-    grid-area: recruit;
-    text-align: center;
     font-size: xx-large;
     margin: auto;
 }
 
 .main {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
     grid-area: main;
     background-color: whitesmoke;
     width: 95%;
     height: auto;
-    border-radius: 10%; 
-    align-items: center;
+    border-radius: 10%;
+
 }
 
 .contacts {
@@ -68,7 +82,7 @@
 .sidebar img {
     width: 100%;
     height: 100%;
-    border: 2px  solid;
+    border: 2px solid;
     border-radius: 5%;
     border-color: aliceblue;
 }
@@ -83,10 +97,18 @@
     margin: 1%;
 }
 
+.links {
+    grid-area: links;
+    text-align: center;
+}
+
+.links ul {
+    text-align: center;
+}
+
 
 h1 {
     font-family: 'Star Wars', sans-serif;
-    text-align: center;
     color: red;
 }
 
@@ -101,4 +123,9 @@ h3 {
     text-align: center;
     color: goldenrod;
     margin: auto;
+}
+
+.gender {
+    display: inline-block;
+    font-family: 'Star Wars', sans-serif;
 }

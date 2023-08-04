@@ -1,13 +1,28 @@
 .container {
     display: grid;
     grid-template-columns: 25% 50% 25%;
-    grid-template-rows: 7% 7% 75% 10%;
-
+    grid-template-rows: 8% 7% 75% 25%;
+    grid-gap: 10px;
+    
     grid-template-areas:
         "header header header"
         "recruit recruit recruit"
         "contacts main sidebar"
-        "footer footer footer";
+        "students footer location";
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.footer {
+  grid-area: footer;
+  align-items: center;
+}
+.footer iframe {
+    width: 100%;
+    height: auto;
 }
 
 .header {
@@ -27,15 +42,17 @@
 }
 
 .main {
+    display: flex;
     grid-area: main;
     background-color: whitesmoke;
     width: 95%;
     height: auto;
-    border-radius: 10%;
+    border-radius: 10%; 
+    align-items: center;
 }
 
-.footer {
-    grid-area: footer;
+.contacts {
+    grid-area: contacts;
     background-color: yellow;
     text-align: center;
     margin: auto;
@@ -51,7 +68,7 @@
 .sidebar img {
     width: 100%;
     height: 100%;
-    border: 2px solid;
+    border: 2px  solid;
     border-radius: 5%;
     border-color: aliceblue;
 }
@@ -66,20 +83,17 @@
     margin: 1%;
 }
 
+
 h1 {
     font-family: 'Star Wars', sans-serif;
     text-align: center;
     color: red;
 }
 
-body {
+.body {
     background-image: url(img/bG.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
     backdrop-filter: blur(25px);
-    max-width: 100%;
-    display: block;
-    margin: auto;
+    background-size: cover;
 }
 
 h3 {
@@ -88,16 +102,3 @@ h3 {
     color: goldenrod;
     margin: auto;
 }
-
-/* 
-
-
-
-
-
-.picture {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: auto;
-} */

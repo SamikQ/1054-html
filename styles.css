@@ -1,4 +1,13 @@
-.container {
+body {
+    background-image: url(/img/bg.jpeg);
+}
+
+
+
+
+
+
+/* .container {
     display: grid;
     grid-template-columns: 25% 45% 30%;
     grid-template-rows: 8% 7% 63% 25%;
@@ -155,4 +164,4 @@ h3 {
     display: inline-block;
     font-family: 'Star Wars', sans-serif;
     color: whitesmoke;
-}
+} */

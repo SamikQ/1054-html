@@ -4,15 +4,14 @@ body {
     color: white;
 }
 
-.header__top {
-    display: inline-flex;
-    width: 90%;
-    
+.header__list {
+    text-align: center;
+    align-content: flex-start;
 }
 
-.header__links-item {
+
+.header__list-item {
     display: inline-block;
-    flex-grow: 1;
 }
 
 .header__logo {
@@ -20,182 +19,17 @@ body {
     display: inline-block;
     width: 185px;
     height: 80px;
-    flex-grow: 1;
 }
 
 .header__personal {
     display: inline-block;
-    flex-grow: 1;
 }
 
 .header__navigation {
     text-align: center;
 }
 
-.bar__list-item {
-    color: white;
-    display: inline;
-}
 
 .main__promo {
     text-align: center;
 }
-
-/* .container {
-    display: grid;
-    grid-template-columns: 25% 45% 30%;
-    grid-template-rows: 8% 7% 63% 25%;
-    grid-gap: 10px;
-
-    grid-template-areas:
-        "header header header"
-        "recruit recruit recruit"
-        "contacts main sidebar"
-        "links footer location";
-}
-
-.container img {
-    max-width: 100%;
-    height: auto;
-}
-
-.footer {
-    grid-area: footer;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-self: stretch;
-}
-
-.footer iframe {
-    width: 100%;
-    height: 90%;
-    border-radius: 5%;
-}
-
-.header {
-    grid-area: header;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-self: stretch;
-    background-color: rgb(17, 1, 1);
-    padding-bottom: 5%;
-}
-
-.recruit {
-    grid-area: recruit;
-    display: flex;
-    align-items: center;
-    font-family: 'Star Wars', sans-serif;
-    color: aliceblue;
-    font-size: xx-large;
-    margin: auto;
-}
-
-.main {
-    flex-direction: column;
-    align-items: center;
-    grid-area: main;
-    background-color: whitesmoke;
-    width: 95%;
-    height: auto;
-    border-radius: 10%;
-
-}
-
-.contacts {
-    grid-area: contacts;
-    text-align: center;
-    margin: auto;
-}
-
-.contacts input {
-    width: 80%;
-    margin: 5px;
-}
-
-.contacts button {
-    top:50%;
-    font-family: 'Star Wars', sans-serif;
-    background-color:white;
-    color: black;
-    border:none; 
-    border-radius:10px; 
-    padding:15px;
-    min-height:30px; 
-    min-width: 120px;
-    cursor: pointer;
-}
-
-.contacts button:hover {
-    outline-color: transparent;
-    outline-style:solid;
-    box-shadow: 0 0 0 4px #5a01a7;
-}
-
-.sidebar {
-    grid-area: sidebar;
-    width: 100%;
-    height: auto;
-    margin-left: -5%;
-}
-
-.sidebar img {
-    width: 100%;
-    height: 100%;
-    border: 2px solid;
-    border-radius: 5%;
-    border-color: aliceblue;
-}
-
-.offers {
-    text-align: center;
-    color: whitesmoke;
-    font-size: xx-large;
-    font-family: 'Star Wars', sans-serif;
-    border: 1px solid;
-    border-color: rosybrown;
-    margin: 1%;
-}
-
-.links {
-    grid-area: links;
-    background-image: url(img/bgSoc.png);
-}
-
-.links img {
-    align-self: center;
-    max-width: 75px;
-    margin: 5px;
-    padding: 10px;
-}
-
-.links ul {
-    text-align: center;
-}
-
-
-h1 {
-    font-family: 'Star Wars', sans-serif;
-    color: red;
-}
-
-.body {
-    background-image: url(img/bG.jpg);
-    backdrop-filter: blur(25px);
-    background-size: cover;
-}
-
-h3 {
-    font-family: 'Star Wars', sans-serif;
-    text-align: center;
-    color: goldenrod;
-    margin: auto;
-}
-
-.gender {
-    display: inline-block;
-    font-family: 'Star Wars', sans-serif;
-    color: whitesmoke;
-} */

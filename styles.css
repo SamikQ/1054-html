@@ -1,27 +1,44 @@
+
 .body {
     background-image: url(/img/bg.jpeg);
     color: white;
 }
 
-.header {
-    display: inline;
+.header__top {
+    display: inline-flex;
+    width: 90%;
+    
 }
 
 .header__links-icom {
     display: inline-block;
+    flex-grow: 1;
 }
 
 .header__logo {
+    align-self: center;
     display: inline-block;
+    width: 185px;
+    height: 80px;
+    flex-grow: 1;
 }
 
 .header__personal {
     display: inline-block;
+    flex-grow: 1;
+}
+
+.header__navigation {
+    text-align: center;
 }
 
 .bar__list-item {
-    display: inline-block;
     color: white;
+    display: inline;
+}
+
+.main__promo {
+    text-align: center;
 }
 
 /* .container {

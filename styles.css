@@ -1,5 +1,5 @@
 
-.body {
+body {
     background-image: url(img/bg.jpeg);
     color: white;
 }
@@ -10,7 +10,7 @@
     
 }
 
-.header__links-icom {
+.header__links-item {
     display: inline-block;
     flex-grow: 1;
 }

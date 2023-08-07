@@ -1,11 +1,28 @@
-body {
+.body {
     background-image: url(/img/bg.jpeg);
+    color: white;
 }
 
+.header {
+    display: inline;
+}
 
+.header__links-icom {
+    display: inline-block;
+}
 
+.header__logo {
+    display: inline-block;
+}
 
+.header__personal {
+    display: inline-block;
+}
 
+.bar__list-item {
+    display: inline-block;
+    color: white;
+}
 
 /* .container {
     display: grid;

@@ -1,6 +1,32 @@
 .header__banner {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+
+
+}
+
+.header__banner-burger {
     max-width: 100%;
+}
+
+.header__banner-burger-icon {
+    width: 48px;
+    height: auto;
+    background-color: white;
+}
+
+.header__banner-logo {
+    margin: 24px 48px;
+}
+
+.header__banner-logo-image {
+
+}
+
+.header__banner-search {
+    margin: 13px 18px;
+}
+
+.header__banner-search-icon {
+max-width: max-content;
 }

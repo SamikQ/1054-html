@@ -1,0 +1,26 @@
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content__promo {
+    text-align: center;
+    padding: 18px 16px;
+}
+
+.theme__title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1.5625em;
+}
+
+.theme__title-text {
+    display: block;
+    margin: 0 0 24px;
+}
+
+.theme__description-text {
+    display: block;
+    font-size: 22px;
+}

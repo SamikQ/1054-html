@@ -1,0 +1,21 @@
+.button {
+  display: inline-block;
+  min-width: 210px;
+  min-height: 48px;
+  background-color: var(--button-background-color);
+  color: var(--button-color);
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 12px 20px 4px;
+  border-radius: 25px;
+  border: 1px transparent;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin: 14px 0 0;
+}
+
+.button:hover {
+  background-color: rgba(242, 210, 78, 1);
+  border: 1px transparent;
+}

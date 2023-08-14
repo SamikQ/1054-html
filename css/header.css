@@ -1,32 +1,24 @@
 .header__banner {
     display: flex;
-    flex-direction: row;
-
-
+    margin: 20px 15px;
 }
 
 .header__banner-burger {
-    max-width: 100%;
-}
-
-.header__banner-burger-icon {
-    width: 48px;
-    height: auto;
-    background-color: white;
+    display: flex;
 }
 
 .header__banner-logo {
-    margin: 24px 48px;
+    display: flex;
+    margin: auto;
+    width: 224px;
+    height: fit-content;
 }
 
-.header__banner-logo-image {
-
-}
 
 .header__banner-search {
-    margin: 13px 18px;
+    margin: 10px;
 }
 
 .header__banner-search-icon {
-max-width: max-content;
+    height: fit-content;
 }

@@ -24,6 +24,14 @@ h2 {
     line-height: 36px;
 }
 
+h3 {
+    font-size: 14px;
+    text-transform: capitalize;
+    color: var(--text-color);
+    text-align: center;
+    margin-bottom: 8px;
+}
+
 p {
     font-family: var(--text-fonts);
     font-size: 16px;

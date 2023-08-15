@@ -1,15 +1,40 @@
-.theme__pic-image {
-    margin-bottom: 400px;
+.content__promo {
+    padding: 9px 0 8px;
+    text-align: center;
 }
 
-.theme__title-text {
-    align-items: stretch;
-    max-width: 100%;
+.content__promo-text {
+    font-size: 14px;
+    margin: 0;
+    padding: 0 16px;
+    line-height: 17.5px;
+    font-weight: 500;
 }
 
 .carousel-caption {
-    display: flex !important;
-    flex-direction: column;
-    max-width: 100%;
+    position: static;
     text-align: center;
+    padding: 25px;
+} 
+
+.carousel-caption h2 {
+    font-weight: 700; 
+    line-height: 36px;
+    margin-bottom: 24px;
 }
+
+.carousel-caption p {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.carousel-indicators {
+    position: static;
+    text-align: start;
+}
+
+.carousel-inner {
+    min-height: 523px;
+}
+

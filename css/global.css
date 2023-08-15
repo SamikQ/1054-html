@@ -1,17 +1,9 @@
 :root {
-    background-color: rgb(0, 0, 0);
     color: rgb(170, 170, 170);
     --text-color: rgb(255, 255, 255);
     --button-background-color: rgb(250, 222, 75);
     --button-color: rgb(0, 0, 0);
-}
-
-body {
-    background-color: rgb(0, 0, 0);
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    max-width: 100%;
+    --bs-body-bg: rgb(0, 0, 0);
 }
 
 * {
@@ -19,20 +11,18 @@ body {
     padding: 0;
     box-sizing: border-box;
     max-width: 100%;
-}
-
-h1 {
-    color: #ffff;
+    font-family: 'DIN Next LT Pro', Helvetica, sans-serif;
 }
 
 h2 {
     font-size: 32px;
+    font-weight: 400;
     text-transform: uppercase;
-    color: var(--text-color)
+    line-height: 36px;
 }
 
 p {
-    font-family: Helvetica, sans-serif;
+    font-family: var(--text-fonts);
     font-size: 16px;
     line-height: 28px;
     font-weight: 500;

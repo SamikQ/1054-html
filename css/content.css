@@ -1,26 +1,15 @@
-.content {
-    display: flex;
-    flex-direction: column;
-}
-
-.content__promo {
-    text-align: center;
-    padding: 18px 16px;
-}
-
-.theme__title {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 1.5625em;
+.theme__pic-image {
+    margin-bottom: 400px;
 }
 
 .theme__title-text {
-    display: block;
-    margin: 0 0 24px;
+    align-items: stretch;
+    max-width: 100%;
 }
 
-.theme__description-text {
-    display: block;
-    font-size: 22px;
+.carousel-caption {
+    display: flex !important;
+    flex-direction: column;
+    max-width: 100%;
+    text-align: center;
 }

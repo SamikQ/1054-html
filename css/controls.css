@@ -8,14 +8,24 @@
   font-weight: 500;
   font-size: 16px;
   padding: 12px 20px 4px;
-  border-radius: 25px;
+  border-radius: 24px;
   border: 1px transparent;
   line-height: 24px;
   text-transform: uppercase;
   margin: 14px 0 0;
+  text-decoration-style: solid;
+  letter-spacing: 0.25px;
+  transition-delay: 0s;
+  transition-duration: 0.125s;
+  transition-property: color;
+  transition-timing-function: ease;
 }
 
 .button:hover {
   background-color: rgba(242, 210, 78, 1);
   border: 1px transparent;
+}
+
+.announce__content-button {
+  margin: 8px 16px 30px;
 }

@@ -4,6 +4,9 @@
     --button-background-color: rgb(250, 222, 75);
     --button-color: rgb(0, 0, 0);
     --bs-body-bg: rgb(0, 0, 0);
+    --content-background-color: rgb(44, 42, 44);
+    --divider-color: rgb(181, 183, 183);
+    --divider-bacground-color: rgb(90, 92, 93);
 }
 
 * {

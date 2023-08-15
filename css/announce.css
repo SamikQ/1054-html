@@ -1,0 +1,125 @@
+.announce {
+    background-color: var(--content-bacground-color);
+}
+
+.announce__image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.announce__content {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 25px 32px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.announce__content-header {
+    margin: 0;
+}
+
+.announce__content-logo {
+    max-width: 100%;
+    margin-bottom: 24px;
+}
+
+.announce__content-description {
+    font-weight: 400;
+    text-align: center;
+    font-size: 16px;
+    text-size-adjust: 100%;
+    list-style-position: outside;
+}
+
+.announce__content-text {
+    line-height: 28px;
+    font-size: 22px;
+    font-weight: 500;
+    list-style-position: outside;
+}
+
+.announce__youtube {
+    min-width: 260px;
+    padding: 0 18px 24px;
+    min-height: 342px;
+    overflow-x: visible;
+    overflow-y: visible;
+}
+
+.announce__details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(29, 30, 31);
+    padding: 32px 44px 12px 8px;
+    min-height: 112px;
+    font-size: 13.76px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16.512px;
+    text-align: left;
+}
+
+.youtube__divider {
+    position: relative;
+    width: 24px;
+    height: 0px;
+    background-color: var(--divider-bacground-color);
+}
+
+.youtube__divider::before {
+    content: '';
+    width: 24px;
+    height: 4px;
+    position: absolute;
+    display: block;
+    background-color: var(--divider-color);
+    border-radius: 8px;
+}
+
+.youtube__divider::after {
+    content: '';
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    display: block;
+    background-color: var(--divider-color);
+    right: -8px;
+    border-radius: 8px;
+}
+
+.announce__details-text {
+    font-weight: 700;
+}
+
+.announce__details-style {
+    position: relative;
+    max-width: 100%;
+    height: 14px;
+}
+
+.announce__details-style::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50%;
+    height: 14px;
+    border-bottom-left-radius: 8px; 
+    border-bottom-right-radius: 8px;
+    border-right: 14px solid transparent;
+    border-top: 14px solid #1D1E1F;
+}
+
+.announce__details-style::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 18%;
+    height: 14px;
+    right: 0%;
+    border-bottom-left-radius: 8px; 
+    border-bottom-right-radius: 8px;
+    border-left: 14px solid transparent;
+    border-top: 14px solid #1D1E1F;
+}

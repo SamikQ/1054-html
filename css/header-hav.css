@@ -1,27 +1,3 @@
-.header__banner {
-    display: flex;
-    margin: 20px 15px;
-}
-
-.header__banner-burger {
-    display: flex;
-}
-
-.header__banner-logo {
-    display: flex;
-    margin: auto;
-    width: 224px;
-    height: fit-content;
-}
-
-.header__banner-search {
-    margin: 10px;
-}
-
-.header__banner-search-icon {
-    height: fit-content;
-}
-
 @media (max-width: 960px) {
     body.lock {
       overflow: hidden;
@@ -38,7 +14,7 @@
       padding: 30px 0;
       z-index: 10;
     }
-    section nav .navigation-burger {
+    .navigation-burger {
       display: block;
       position: relative;
       width: 30px;
@@ -47,9 +23,9 @@
       cursor: pointer;
       z-index: 5;
     }
-    section nav .navigation-burger span,
-    section nav .navigation-burger::before,
-    section nav .navigation-burger::after {
+    .navigation-burger span,
+    .navigation-burger::before,
+    .navigation-burger::after {
       position: absolute;
       left: 0;
       height: 2px;
@@ -57,35 +33,34 @@
       background-color: var(--text-color);
       transition: all 0.5s ease-in-out;
     }
-    section nav .navigation-burger span {
+    .navigation-burger span {
       transform: scale(1);
     }
-    section nav .navigation-burger::before,
-    section nav .navigation-burger::after {
+    .navigation-burger::before,
+    .navigation-burger::after {
       content: " ";
     }
-    section nav .navigation-burger::before {
+    .navigation-burger::before {
       top: 0;
     }
-    section nav .navigation-burger::after {
+    .navigation-burger::after {
       bottom: 0;
     }
-    section nav .navigation-burger.active span {
+    .navigation-burger.active span {
       transform: scale(0);
     }
-    section nav .navigation-burger.active::before {
+    .navigation-burger.active::before {
       top: 50%;
       transform: rotate(-45deg);
     }
-    section nav .navigation-burger.active::after {
+    .navigation-burger.active::after {
       bottom: 40%;
       transform: rotate(45deg);
     }
     header section div.container-section {
       position: relative;
     }
-
-    header section nav.header__nav .header__nav-wrapper {
+    .header__nav-wrapper {
       position: fixed;
       top: -100%;
       left: 0;
@@ -100,7 +75,7 @@
       margin: auto;
     }
   
-    header section nav.header__nav .header__nav-wrapper.active {
+    .header__nav-wrapper.active {
       top: 0;
     }
   
@@ -161,3 +136,7 @@
       border-radius: 0.4rem;
     }
   }
+
+@media (min-width: 960px) {
+
+}

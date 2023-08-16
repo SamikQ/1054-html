@@ -20,6 +20,10 @@
     font-family: 'DIN Next LT Pro', Helvetica, sans-serif;
 }
 
+.container {
+    max-width: 1200px;
+}
+
 h2 {
     font-size: 32px;
     font-weight: 400;

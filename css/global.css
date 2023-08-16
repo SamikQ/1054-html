@@ -3,17 +3,19 @@
     --text-color: rgb(255, 255, 255);
     --button-background-color: rgb(250, 222, 75);
     --button-color: rgb(0, 0, 0);
+    --hover-background-color: rgba(242, 210, 78, 1);
     --bs-body-bg: rgb(0, 0, 0);
     --content-background-color: rgb(44, 42, 44);
     --divider-color: rgb(181, 183, 183);
     --nav-text-color: rgb(181, 183, 183);
     --divider-bacground-color: rgb(90, 92, 93);
+    --background-announce-color: rgb(29, 30, 31);
 }
 
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     max-width: 100%;
     font-family: 'DIN Next LT Pro', Helvetica, sans-serif;
 }

@@ -15,10 +15,10 @@
     position: static;
     text-align: center;
     padding: 25px;
-} 
+}
 
 .carousel-caption h2 {
-    font-weight: 700; 
+    font-weight: 700;
     line-height: 36px;
     margin-bottom: 24px;
 }
@@ -37,4 +37,3 @@
 .carousel-inner {
     min-height: 673px;
 }
-

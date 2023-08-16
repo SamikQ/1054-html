@@ -15,14 +15,14 @@
   margin: 14px 0 0;
   text-decoration-style: solid;
   letter-spacing: 0.25px;
-  transition-delay: 0s;
+  transition-delay: 0;
   transition-duration: 0.125s;
   transition-property: color;
   transition-timing-function: ease;
 }
 
 .button:hover {
-  background-color: rgba(242, 210, 78, 1);
+  background-color: var(--hover-background-color);
   border: 1px transparent;
 }
 

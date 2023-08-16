@@ -10,12 +10,11 @@
   const navLinks = document.querySelectorAll(".wrapper__link");
   navLinks.forEach((navLink) => {
     navLink.addEventListener("click", (_) => {
-          if (iconBurger.classList.contains("active")) {
-              document.body.classList.remove("lock");
-              iconBurger.classList.remove("active");
-              navigationsBody.classList.remove("active");
-          }
-        }
-    );
+      if (iconBurger.classList.contains("active")) {
+        document.body.classList.remove("lock");
+        iconBurger.classList.remove("active");
+        navigationsBody.classList.remove("active");
+      }
+    });
   });
 })();

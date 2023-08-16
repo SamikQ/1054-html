@@ -174,17 +174,37 @@
 
 @media (min-width: 961px) {
   .header__banner {
-    flex-direction: column-reverse;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "media logo search"
+    "navi  navi  navi";
+  }
+
+  .header__banner-logo {
+    grid-area: logo;
+  }
+  
+  .header__banner-search {
+    grid-area: search;
+    display: flex;
+    justify-content: end;
   }
 
   .header__nav {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+    align-items: start;
   }
 
-  .header__nav-wrapper {
-    display: block;
+  .header__nav .footer__title {
+    display: none;
   }
 
+  .wrapper__links {
+    grid-area: navi;
+    position: absolute;
+    left: 20%;
+    top: 15%;
+    width: 75%;
+  }
 }

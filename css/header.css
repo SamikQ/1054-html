@@ -171,3 +171,20 @@
     border-radius: 0.4rem;
   }
 }
+
+@media (min-width: 961px) {
+  .header__banner {
+    flex-direction: column-reverse;
+  }
+
+  .header__nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .header__nav-wrapper {
+    display: block;
+  }
+
+}

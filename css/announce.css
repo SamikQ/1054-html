@@ -1,5 +1,6 @@
 .announce {
     background-color: var(--content-bacground-color);
+    z-index: 1;
 }
 
 .announce__image {

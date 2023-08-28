@@ -177,15 +177,15 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-template-areas: 
-    "media logo search"
-    "navi  navi  navi";
+    grid-template-areas:
+      "media logo search"
+      "navi  navi  navi";
   }
 
   .header__banner-logo {
     grid-area: logo;
   }
-  
+
   .header__banner-search {
     grid-area: search;
     display: flex;
